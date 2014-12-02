@@ -1,0 +1,57 @@
+h1 {
+	font-size:80px;
+	margin:0;
+}
+
+body {
+	font-family: 'Poiret One', cursive;
+	font-weight: 400;
+	background-color:#eeeeee;
+}
+
+html > * {
+	text-align: center;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+canvas {
+	background-image:url('../images/dirt4.jpg');
+}
+
+.outer-container {
+	margin-top: 10px;
+	display: inline-block;
+}
+
+.scores {
+	font-size: 24px;
+}
+
+.scores .current {
+	float:left;
+}
+
+.scores .high {
+	float:right;
+}
+
+.snake-world-container {
+	margin-top:5px;
+	position: relative;
+	display: inline-block;
+}
+
+.snake-world-container .message {
+	cursor:pointer;
+	position:absolute;
+	font-size:40px;
+	color:white;
+	background-color: rgba(0, 0, 0, 0.5);
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	padding-top: 50px;
+}
